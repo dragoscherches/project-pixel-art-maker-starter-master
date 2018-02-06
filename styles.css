@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #2C3E50 , #4CA1AF)
+
+}
+
+h1 {
+    font-family: 'Megrim', cursives;
+    font-size: 100px;
+    margin: 0.2em;
+    color: #DDDDDD;
+     text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 1em 0 0.25em;
+    color: #DDDDDD;
+
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#pixelCanvas{
+    background-color: white;
+}
+
+label{
+    color: #DDDDDD;
+}
